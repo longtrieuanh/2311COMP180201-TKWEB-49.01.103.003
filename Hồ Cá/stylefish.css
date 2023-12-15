@@ -56,6 +56,7 @@ img {
 }
 #shark2{
 	/*nemo*/
+	width: 150px; height: 150px;
 	position: absolute;
 	animation: shark2 26s infinite ease-out running;
 	-webkit-animation:shark2 26s infinite ease-out running;
@@ -307,38 +308,27 @@ img {
 	90%  { left: 1189px; top: 180px; transform: scaleX(-1); }
 	100% { left: 1209px; top: 200px; transform: scaleX(-1); }
 }
-#fish7 img{
-	width: 230px;
-    height: 230px;
-	position: absolute;
-	bottom: 200px;
-	right:875px;
-}
+
+
 #reu img{
-	width: 610px;
-    height:410px;
-	position: absolute;
-	bottom: 5px;
-	right:0%;
-}
-#reu1 img{
-	width: 300px;
-    height: 300px;
+	width: 810px;
+    height:910px;
 	position: absolute;
 	bottom: 0px;
-	right:865px;
+	right:0px;
 }
+
 #sanho img{
-	width: 900px;
-    height: 900px;
+	width: 810px;
+    height: 910px;
 	position: absolute;
 	bottom: 0px;
-	right: 475px;;
+	left: 675px;
 }
 #sanho2 img{
-	width: 600px;
-    height: 480px;
+	width: 900px;
+    height: 880px;
 	position: absolute;
 	bottom: 0px;
-	right: 70%;
+	right: 65%;
 }
