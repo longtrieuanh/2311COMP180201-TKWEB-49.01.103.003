@@ -1,0 +1,344 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+body {
+	width: 100%;
+	height: 100%;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+img {
+	vertical-align: middle;
+}
+#background_image {
+    background-color: rgb(87, 143, 255);
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+
+}
+#background_image img{
+    width: 100%;
+    height: 100vh; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+.container {
+	width: 50%;
+    height: 50%;
+	margin: 0 auto;
+	display:block;
+}
+.btn_change_bg{
+    outline: none;
+    border: none;
+    background-color: rgb(50, 152, 255);
+    cursor: pointer;
+    padding: 10px;
+}
+.btn_change_ms{
+    outline: none;
+    border: none;
+    background-color: rgb(224, 50, 255);
+    cursor: pointer;
+	padding: 10px;
+}
+#shark2{
+	/*nemo*/
+	position: absolute;
+	animation: shark2 26s infinite ease-out running;
+	-webkit-animation:shark2 26s infinite ease-out running;
+	-moz-animation: shark2 26s infinite ease-out running;
+	-o-animation: shark2 26s infinite ease-out running;
+}
+@keyframes shark2 {
+	0%   {left: 1301px; top: 400px;transform: scaleX(1);}
+	10%  {left: 1289px; top:380px;transform: scaleX(1);}
+	49.9%  {left:0px; top:277px;transform: scaleX(1);}
+	50%  {left:0px; top:277px;transform: scaleX(-1);}
+	90%  {left:1289px; top:380px;transform: scaleX(-1);}
+	100% {left:1301px; top:400px;transform: scaleX(-1);}
+
+}
+@-webkit-keyframes shark2{
+	0%   {left: 1301px; top: 400px;transform: scaleX(1);}
+	10%  {left: 1289px; top:380px;transform: scaleX(1);}
+	49.9%  {left:0px; top:277px;transform: scaleX(1);}
+	50%  {left:0px; top:277px;transform: scaleX(-1);}
+	90%  {left:1289px; top:380px;transform: scaleX(-1);}
+	100% {left:1301px; top:400px;transform: scaleX(-1);}
+}
+@-moz-keyframes shark2{
+	0%   {left: 1301px; top: 400px;transform: scaleX(1);}
+	10%  {left: 1289px; top:380px;transform: scaleX(1);}
+	49.9%  {left:0px; top:277px;transform: scaleX(1);}
+	50%  {left:0px; top:277px;transform: scaleX(-1);}
+	90%  {left:1289px; top:380px;transform: scaleX(-1);}
+	100% {left:1301px; top:400px;transform: scaleX(-1);}
+}
+@-o-keyframes shark2{
+	0%   {left: 1301px; top: 400px;transform: scaleX(1);}
+	10%  {left: 1289px; top:380px;transform: scaleX(1);}
+	49.9%  {left:0px; top:277px;transform: scaleX(1);}
+	50%  {left:0px; top:277px;transform: scaleX(-1);}
+	90%  {left:1289px; top:380px;transform: scaleX(-1);}
+	100% {left:1301px; top:400px;transform: scaleX(-1);}
+}
+#shark3{
+	/*2 con nemo*/
+	position: absolute;
+	animation: shark3 10s infinite ease-out running;
+	-webkit-animation:shark3 10s infinite ease-out running;
+	-moz-animation: shark3 10s infinite ease-out running;
+	-o-animation: shark3 10s infinite ease-out running;
+}
+@keyframes shark3 {
+	0%   {left: 800px; top: 400px;}
+	10%  {left: 800px; top:380px;}
+	30%  {left:799px; top:380px;}
+	50%  {left:800px; top:385px;}
+	80%  {left:800px; top:386px;}
+	100% {left:810px; top:388px;}
+
+}
+@-webkit-keyframes shark3{
+	0%   {left: 800px; top: 400px;}
+	10%  {left: 800px; top:380px;}
+	30%  {left:799px; top:380px;}
+	50%  {left:800px; top:385px;}
+	80%  {left:800px; top:386px;}
+	100% {left:810px; top:388px;}
+}
+@-moz-keyframes shark3{
+	0%   {left: 800px; top: 400px;}
+	10%  {left: 800px; top:380px;}
+	30%  {left:799px; top:380px;}
+	50%  {left:800px; top:385px;}
+	80%  {left:800px; top:386px;}
+	100% {left:810px; top:388px;}
+}
+@-o-keyframes shark3{
+	0%   {left: 800px; top: 400px;}
+	10%  {left: 800px; top:380px;}
+	30%  {left:799px; top:380px;}
+	50%  {left:800px; top:385px;}
+	80%  {left:800px; top:386px;}
+	100% {left:810px; top:388px;}
+}
+#shark4{
+	/*vằn*/
+
+	position:absolute;
+	animation: shark4 30s infinite ease-out running;
+	-webkit-animation: shark4 30s infinite ease-out running;
+	-moz-animation: shark4 30s infinite ease-out running;
+	-o-animation: shark4 30s infinite ease-out running;	
+	
+}
+@keyframes shark4{
+	0%   {left: 1200px; top: 200px;transform: scaleX(1);}
+	10%  {left: 1180px; top:180px;transform: scaleX(1);}
+	49.9%  {left:0px; top:177px;transform: scaleX(1);}
+	50%  {left:0px; top:177px;transform: scaleX(-1);}
+	90%  {left:1180px; top:180px;transform: scaleX(-1);}
+	100% {left:1200px; top:200px;transform: scaleX(-1);}
+}
+@-webkit-keyframes shark4{
+	0%   {left: 1300px; top: 200px;transform: scaleX(1);}
+	10%  {left: 1380px; top:180px;transform: scaleX(1);}
+	49.9%  {left:0px; top:177px;transform: scaleX(1);}
+	50%  {left:0px; top:177px;transform: scaleX(-1);}
+	90%  {left:1380px; top:180px;transform: scaleX(-1);}
+	100% {left:1300px; top:200px;transform: scaleX(-1);}
+}
+@-moz-keyframes shark4{
+	0%   {left: 1300px; top: 200px;transform: scaleX(1);}
+	10%  {left: 1380px; top:180px;transform: scaleX(1);}
+	49.9%  {left:0px; top:177px;transform: scaleX(1);}
+	50%  {left:0px; top:177px;transform: scaleX(-1);}
+	90%  {left:1380px; top:180px;transform: scaleX(-1);}
+	100% {left:1300px; top:200px;transform: scaleX(-1);}
+}
+@-o-keyframes shark4{
+	0%   {left: 1300px; top: 200px;transform: scaleX(1);}
+	10%  {left: 1380px; top:180px;transform: scaleX(1);}
+	49.9%  {left:0px; top:177px;transform: scaleX(1);}
+	50%  {left:0px; top:177px;transform: scaleX(-1);}
+	90%  {left:1380px; top:180px;transform: scaleX(-1);}
+	100% {left:1300px; top:200px;transform: scaleX(-1);}
+}
+#fish5{
+	position:absolute;
+	animation: fish5 17s infinite ease-out running;
+	-webkit-animation: fish5  17s infinite ease-out running;
+	-moz-animation: fish5 17s infinite ease-out running;
+	-o-animation: fish5 17s infinite ease-out running;	
+	width: 230;
+	height: 230;
+}
+@keyframes fish5{
+    0%   {right: 1280px; bottom:100px;transform: scaleX(-1);}
+    10%  {right: 1260px; bottom:140px;transform: scaleX(-1);}
+    49.9%  {right:0px; bottom:67px;transform: scaleX(-1);}
+    50%  {right:0px; bottom:67px;transform: scaleX(1);}
+    90%  {right:1260px; bottom:140px;transform: scaleX(1);}
+    100% {right:1280px; bottom:100px;transform: scaleX(1);}
+}
+@-webkit-keyframes fish5{
+    0%   {right: 1280px; bottom:100px;transform: scaleX(-1);}
+    10%  {right: 1260px; bottom:140px;transform: scaleX(-1);}
+    49.9%  {right:0px; bottom:67px;transform: scaleX(-1);}
+    50%  {right:0px; bottom:67px;transform: scaleX(1);}
+    90%  {right:1260px; bottom:140px;transform: scaleX(1);}
+    100% {right:1280px; bottom:100px;transform: scaleX(1);}
+}
+@-moz-keyframes fish5{
+    0%   {right: 1280px; bottom:100px;transform: scaleX(-1);}
+    10%  {right: 1260px; bottom:140px;transform: scaleX(-1);}
+    49.9%  {right:0px; bottom:67px;transform: scaleX(-1);}
+    50%  {right:0px; bottom:67px;transform: scaleX(1);}
+    90%  {right:1260px; bottom:140px;transform: scaleX(1);}
+    100% {right:1280px; bottom:100px;transform: scaleX(1);}
+}
+@-o-keyframes fish5{
+    0%   {right: 1280px; bottom:100px;transform: scaleX(-1);}
+    10%  {right: 1260px; bottom:140px;transform: scaleX(-1);}
+    49.9%  {right:0px; bottom:67px;transform: scaleX(-1);}
+    50%  {right:0px; bottom:67px;transform: scaleX(1);}
+    90%  {right:1260px; bottom:140px;transform: scaleX(1);}
+    100% {right:1280px; bottom:100px;transform: scaleX(1);}
+}
+
+#fish6{
+	position:absolute;
+	animation: fish6 18s infinite ease-out running;
+	-webkit-animation: fish6  18s infinite ease-out running;
+	-moz-animation: fish6 18s infinite ease-out running;
+	-o-animation: fish6 18s infinite ease-out running;	
+}
+@keyframes fish6{
+    0%   {right: 1190px; bottom:90px;transform: scaleX(-1);}
+    10%  {right: 1170px; bottom:50px;transform: scaleX(-1);}
+    49.9%  {right:0px; bottom:47px;transform: scaleX(-1);}
+    50%  {right:0px; bottom:47px;transform: scaleX(1);}
+    90%  {right:1170px; bottom:50px;transform: scaleX(1);}
+    100% {right:1190px; bottom:80px;transform: scaleX(1);}
+}
+@-webkit-keyframes fish6{
+    0%   {right: 1190px; bottom:90px;transform: scaleX(-1);}
+    10%  {right: 1170px; bottom:50px;transform: scaleX(-1);}
+    49.9%  {right:0px; bottom:47px;transform: scaleX(-1);}
+    50%  {right:0px; bottom:47px;transform: scaleX(1);}
+    90%  {right:1170px; bottom:50px;transform: scaleX(1);}
+    100% {right:1190px; bottom:80px;transform: scaleX(1);}
+}
+@-moz-keyframes fish6{
+    0%   {right: 1190px; bottom:90px;transform: scaleX(-1);}
+    10%  {right: 1170px; bottom:50px;transform: scaleX(-1);}
+    49.9%  {right:0px; bottom:47px;transform: scaleX(-1);}
+    50%  {right:0px; bottom:47px;transform: scaleX(1);}
+    90%  {right:1170px; bottom:50px;transform: scaleX(1);}
+    100% {right:1190px; bottom:80px;transform: scaleX(1);}
+}
+@-o-keyframes fish6{
+    0%   {right: 1190px; bottom:90px;transform: scaleX(-1);}
+    10%  {right: 1170px; bottom:50px;transform: scaleX(-1);}
+    49.9%  {right:0px; bottom:47px;transform: scaleX(-1);}
+    50%  {right:0px; bottom:47px;transform: scaleX(1);}
+    90%  {right:1170px; bottom:50px;transform: scaleX(1);}
+    100% {right:1190px; bottom:80px;transform: scaleX(1);}
+}
+
+
+
+
+
+
+#shark1 {
+	position: absolute;
+	animation: shark1 22s infinite ease-out;
+	-webkit-animation: shark1 22s infinite ease-out;
+	-moz-animation: shark1 22s infinite ealeftse-out;
+	-o-animation: shark1 22s infinite ease-out;
+	transform-origin: right center;
+	
+
+}
+@keyframes shark1 {
+	0%   { left: 1209px; top: 200px; transform: scaleX(1); }
+	10%  { left: 1189px; top: 180px; transform: scaleX(1); }
+	49.9% {left: 0px; top: 107px; transform: scaleX(1); }
+	50%  { left: 0px; top: 107px; transform: scaleX(-1); }
+	90%  { left: 1189px; top: 180px; transform: scaleX(-1); }
+	100% { left: 1209px; top: 200px; transform: scaleX(-1); }
+}
+@-webkit-keyframes shark1  {
+	0%   { left: 1209px; top: 200px; transform: scaleX(1); }
+	10%  { left: 1189px; top: 180px; transform: scaleX(1); }
+	49.9% {left: 0px; top: 107px; transform: scaleX(1); }
+	50%  { left: 0px; top: 107px; transform: scaleX(-1); }
+	90%  { left: 1189px; top: 180px; transform: scaleX(-1); }
+	100% { left: 1209px; top: 200px; transform: scaleX(-1); }
+}
+@-moz-keyframes shark1  {
+	0%   { left: 1209px; top: 200px; transform: scaleX(1); }
+	10%  { left: 1189px; top: 180px; transform: scaleX(1); }
+	49.9% {left: 0px; top: 107px; transform: scaleX(1); }
+	50%  { left: 0px; top: 107px; transform: scaleX(-1); }
+	90%  { left: 1189px; top: 180px; transform: scaleX(-1); }
+	100% { left: 1209px; top: 200px; transform: scaleX(-1); }
+}
+@-o-keyframes shark1 {
+	0%   { left: 1209px; top: 200px; transform: scaleX(1); }
+	10%  { left: 1189px; top: 180px; transform: scaleX(1); }
+	49.9% {left: 0px; top: 107px; transform: scaleX(1); }
+	50%  { left: 0px; top: 107px; transform: scaleX(-1); }
+	90%  { left: 1189px; top: 180px; transform: scaleX(-1); }
+	100% { left: 1209px; top: 200px; transform: scaleX(-1); }
+}
+#fish7 img{
+	width: 230px;
+    height: 230px;
+	position: absolute;
+	bottom: 200px;
+	right:875px;
+}
+#reu img{
+	width: 610px;
+    height:410px;
+	position: absolute;
+	bottom: 5px;
+	right:0%;
+}
+#reu1 img{
+	width: 300px;
+    height: 300px;
+	position: absolute;
+	bottom: 0px;
+	right:865px;
+}
+#sanho img{
+	width: 900px;
+    height: 900px;
+	position: absolute;
+	bottom: 0px;
+	right: 475px;;
+}
+#sanho2 img{
+	width: 600px;
+    height: 480px;
+	position: absolute;
+	bottom: 0px;
+	right: 70%;
+}
